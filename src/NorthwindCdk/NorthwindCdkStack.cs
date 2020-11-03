@@ -103,7 +103,7 @@ namespace NorthwindCdk
                 ClusterIdentifier = "northwind-postgresql",
                 Engine = DatabaseClusterEngine.AuroraPostgres(new AuroraPostgresClusterEngineProps
                 { Version = AuroraPostgresEngineVersion.VER_11_6 }), // Aurora PostgreSQL
-                Credentials = Credentials.FromUsername("adminUser", new CredentialsFromUsernameOptions
+                Credentials = Credentials.FromUsername("adminuser", new CredentialsFromUsernameOptions
                 {
                     Password = new SecretValue("Admin12345?")
                 }),
