@@ -1,7 +1,3 @@
 {
-  "app": "dotnet run -p src/NorthwindCdk/NorthwindCdk.csproj",
-  "context": {
-    "@aws-cdk/core:enableStackNameDuplicates": "true",
-    "aws-cdk:enableDiffNoFail": "true"
-  }
+  "app": "dotnet run -p src/NorthwindCdk/NorthwindCdk.csproj"
 }

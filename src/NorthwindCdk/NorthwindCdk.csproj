@@ -6,12 +6,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <!-- CDK Construct Library dependencies -->
-    <PackageReference Include="Amazon.CDK" Version="1.31.0" />
-
-    <!-- jsii Roslyn analyzers (un-comment to obtain compile-time checks for missing required props
-    <PackageReference Include="Amazon.Jsii.Analyzers" Version="*" PrivateAssets="all" />
-    -->
+    <PackageReference Include="Amazon.CDK" Version="1.71.0" />
+    <PackageReference Include="Amazon.CDK.AWS.EC2" Version="1.71.0" />
+    <PackageReference Include="Amazon.CDK.AWS.RDS" Version="1.71.0" />
+    <PackageReference Include="Amazon.Extensions.Configuration.SystemsManager" Version="2.0.0" />
   </ItemGroup>
 
 </Project>
